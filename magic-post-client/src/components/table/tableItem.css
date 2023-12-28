@@ -1,0 +1,125 @@
+.table-item-row {
+  display: table;
+  width: 100%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+}
+
+.table-item-row:hover {
+  background-color: #29313a;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.table-item-row:first-child {
+  margin-top: 0;
+}
+
+.table-item-row:last-child {
+  margin-bottom: 0;
+}
+
+.table-item-head {
+  display: table;
+  width: 100%;
+  margin: 8px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 8px 10px;
+  color: white;
+  font-size: 15px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+  background: #8665f7;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table-item-cell {
+  display: table-cell;
+  padding: 4px 14px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.table-item-cell-text {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.table-item-cell.first-cell {
+  width: 14%;
+}
+
+.table-item-cell.second-cell {
+  width: 14%;
+}
+
+.table-item-cell.third-cell {
+  width: 14%;
+}
+
+.table-item-cell.fourth-cell {
+  width: 14%;
+}
+
+.table-item-cell.fifth-cell {
+  width: 14%;
+}
+
+.table-item-cell.sixth-cell {
+  width: 14%;
+}
+
+.table-item-cell.last-cell {
+  width: 16%;
+}
+
+.table-item-actions {
+  text-align: right;
+}
+
+.table-item-actions-icon {
+  font-size: 20px;
+  padding: none;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.table-item-actions-icon.add {
+  color: blue;
+}
+
+.table-item-actions-icon.edit {
+  color: teal;
+}
+
+.table-item-actions-icon.delete {
+  color: red;
+}
+
+.table-item-btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 4px 12px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.table-item-btn:hover {
+  background-color: black;
+  transition: all 0.2s ease;
+  color: white;
+}

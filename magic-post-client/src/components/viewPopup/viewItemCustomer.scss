@@ -1,0 +1,154 @@
+.view-popup-customer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.view-popup-customer-container {
+  background-color: white;
+  border-radius: 30px;
+  margin: 0px auto;
+  padding: 40px;
+  cursor: text;
+  color: black;
+  min-width: 500px;
+  max-height: 600px;
+  overflow-y: scroll;
+  font-size: 17px;
+
+  &::-webkit-scrollbar {
+    width: 2px; /* Độ rộng của thanh cuộn */
+    background-color: rgba(0, 0, 0, 0.2); /* Màu nền của thanh cuộn */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); /* Màu của thanh cuộn */
+    border-radius: 4px; /* Độ cong của thanh cuộn */
+  }
+
+  .view-popup-customer-title {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .view-popup-customer-box {
+    display: flex;
+    flex-direction: column;
+    // gap: 20px;
+
+    .view-popup-customer-process {
+      display: flex;
+      flex-direction: column;
+
+      .item-process-child {
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        gap: 30px;
+
+        .item-process-time {
+        }
+
+        .item-process-status-progress {
+          position: relative;
+          border-right: 1px solid gray;
+
+          .item-process-status {
+            position: absolute;
+            left: -11px;
+            top: 0;
+            background-color: lightgray;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .item-process-icon {
+              color: black;
+            }
+            .item-process-icon.active {
+              font-weight: bold;
+              color: white;
+            }
+          }
+
+          .item-process-status.active {
+            background-color: green;
+          }
+        }
+
+        .item-process-details {
+          .item-process-description {
+            margin-bottom: 10px;
+          }
+
+          .item-process-description.active {
+            font-weight: 600;
+          }
+
+          .item-process-details-desc {
+            margin-bottom: 5px;
+          }
+        }
+      }
+
+      .item-process-child:last-child {
+        min-height: 0;
+      }
+
+      .view-popup-customer-details {
+        // border: 1px solid red;
+        tr {
+          text-align: center;
+          td {
+            text-align: center;
+            border: 1px solid lightgray;
+            padding: 10px;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+
+    .view-popup-customer-details {
+      color: black;
+
+      .view-popup-customer-item {
+        // display: flex;
+        // align-items: center;
+        // gap: 50px;
+
+        .view-popup-customer-label {
+          font-size: 17px;
+          font-weight: bold;
+          padding: 6px 25px 6px 0;
+          text-align: center;
+        }
+
+        .view-popup-customer-info {
+        }
+      }
+    }
+  }
+}
+
+.view-popup-customer-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,156 @@
+.form-gathering {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .form-gathering-container {
+    width: 400px;
+    margin: 0px auto;
+    border-radius: 4px;
+    padding: 30px 20px;
+  }
+  
+  .form-gathering-form {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+  }
+  .form-gathering-form * {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  
+  .form-gathering-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .form-gathering-list-leader {
+    padding-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    max-height: 400px;
+    top: 30px;
+    overflow-y: scroll;
+  }
+  
+  .form-gathering-leader-close {
+    position: absolute;
+    right: 2px;
+    top: 5px;
+    cursor: pointer;
+    color: red;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-gathering-list-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .form-gathering-list-item-name {
+    color: black;
+  }
+  
+  .form-gathering-list-item:hover {
+    background-color: lightgray;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .form-gathering-label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .form-gathering-input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  ::placeholder {
+    color: #e5e5e5;
+  }
+  
+  .form-gathering-btn {
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-gathering-btn:hover {
+    transition: all 0.2s linear;
+    color: white;
+    background-color: black;
+  }
+  
+  .form-gathering-close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .form-gathering-assign {
+    border: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .form-gathering-assign:hover {
+    transition: all 0.3s ease;
+    background-color: white;
+    color: black;
+  }
+  

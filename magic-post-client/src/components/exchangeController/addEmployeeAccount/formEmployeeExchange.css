@@ -1,0 +1,126 @@
+.form-modal-user {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .form-modal-user-container {
+    margin: 0px auto;
+    border-radius: 4px;
+    padding: 30px 20px;
+  }
+  
+  .form-modal-user-form {
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+  }
+  .form-modal-user-form * {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  
+  /* .form-modal-user-form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    } */
+  
+  .form-modal-user-label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .form-modal-user-input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  ::placeholder {
+    color: #e5e5e5;
+  }
+  
+  .form-modal-user-btn {
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-modal-user-btn:hover {
+    transition: all 0.2s linear;
+    color: white;
+    background-color: black;
+  }
+  
+  .form-modal-user-close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .form-modal-user-form-group {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-modal-user-child {
+    width: 100%;
+  }
+  
+  .form-modal-user-select {
+    /* color: white; */
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+  }
+  
+  .form-modal-user-option {
+    color: black;
+    cursor: pointer;
+  }
+  

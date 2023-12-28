@@ -1,0 +1,180 @@
+.register {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/djqxdscwh/image/upload/v1699883075/bg_vmnvqg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-intro-header {
+  width: 1180px;
+  max-width: 1180px;
+  margin: 0 auto;
+  position: absolute;
+  top: -100px;
+  left: 118px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: -70px;
+  margin-left: -60px; */
+}
+
+.register-intro-header-logo {
+  color: white;
+  height: 250px;
+}
+
+.register-intro-login {
+  margin-right: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px 18px;
+  font-size: 16px;
+}
+
+.register-intro-login:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.2s linear;
+}
+
+.register-intro-register {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px 18px;
+  font-size: 16px;
+}
+
+.register-intro-register:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.2s linear;
+}
+
+.register-form {
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+}
+
+.register-form * {
+  /* font-family: "Poppins", sans-serif; */
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+.register-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.register-input {
+  color: white;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+::placeholder {
+  color: white;
+}
+
+.register-btn {
+  margin-top: 50px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  transition: all 0.2s linear;
+  color: white;
+  background-color: black;
+}
+
+.register-footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  color: white;
+}
+
+.register-footer p {
+  font-size: 16px;
+}
+
+.register-btn-login {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+  font-size: 16px;
+}
+
+.register-btn-login:hover {
+  color: black;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.register-form-group {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-group {
+  width: 100%;
+}
+
+.register-select {
+  /* color: white; */
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+}
+
+.register-option {
+  color: black;
+  cursor: pointer;
+}

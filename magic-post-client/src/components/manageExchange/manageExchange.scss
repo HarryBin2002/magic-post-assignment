@@ -1,0 +1,65 @@
+.manage-exchange {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .manage-exchange-container {
+    .manage-exchange-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      .manage-exchange-actions {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .btn-add {
+          border: none;
+          cursor: pointer;
+          border: 10px;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          padding: 8px 10px;
+          border-radius: 20px;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+
+          &:hover {
+            transition: all 0.3s ease;
+            background-color: white;
+            color: black;
+          }
+        }
+
+        .manage-exchange-filter {
+          border: none;
+          cursor: pointer;
+          border: 10px;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          padding: 8px 10px;
+          border-radius: 20px;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+
+          &:hover {
+            transition: all 0.3s ease;
+            background-color: white;
+            color: black;
+          }
+        }
+      }
+
+      .manage-exchange-title {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

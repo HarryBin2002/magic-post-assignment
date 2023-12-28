@@ -1,0 +1,73 @@
+.table-row {
+  display: table;
+  width: 100%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  /* background-color: #6c7b8b; */
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+}
+
+.table-row:hover {
+  background-color: #29313a;
+  transition: all 0.3s ease;
+  cursor: text;
+}
+
+.table-row:first-child {
+  margin-top: 0;
+}
+
+.table-row:last-child {
+  margin-bottom: 0;
+}
+
+.table-head {
+  display: table;
+  width: 100%;
+  margin: 8px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 8px 10px;
+  color: white;
+  font-size: 15px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+  background: #8665f7;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table-cell {
+  display: table-cell;
+  width: 20%;
+  padding: 4px 0;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.table-actions {
+  text-align: right;
+}
+
+.table-actions-icon {
+  font-size: 20px;
+  padding: none;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.table-actions-icon.add {
+  color: blue;
+}
+
+.table-actions-icon.edit {
+  color: teal;
+}
+
+.table-actions-icon.delete {
+  color: red;
+}

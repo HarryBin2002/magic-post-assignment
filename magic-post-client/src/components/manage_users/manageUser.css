@@ -1,0 +1,116 @@
+.manage-user-row {
+  display: table;
+  width: 100%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+}
+
+.manage-user-row:hover {
+  background-color: #29313a;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.manage-user-row:first-child {
+  margin-top: 0;
+}
+
+.manage-user-row:last-child {
+  margin-bottom: 0;
+}
+
+.manage-user-head {
+  display: table;
+  width: 100%;
+  margin: 8px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 8px 10px;
+  color: white;
+  font-size: 15px;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 50, 0.3);
+  background: #8665f7;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.manage-user-cell {
+  display: table-cell;
+  padding: 4px 14px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.manage-user-cell-text {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.manage-user-cell.first-cell {
+  width: 8%;
+}
+
+.manage-user-cell.second-cell {
+  width: 10%;
+}
+
+.manage-user-cell.third-cell {
+  width: 10%;
+}
+
+.manage-user-cell.fourth-cell {
+  width: 10%;
+}
+
+.manage-user-cell.fifth-cell {
+  width: 8%;
+}
+
+.manage-user-cell.sixth-cell {
+  width: 10%;
+}
+
+.manage-user-cell.seventh-cell {
+  width: 10%;
+}
+
+.manage-user-cell.eighth-cell {
+  width: 10%;
+}
+
+.manage-user-cell.last-cell {
+  width: 10%;
+}
+
+.manage-user-actions {
+  text-align: right;
+}
+
+.manage-user-actions-icon {
+  font-size: 20px;
+  padding: none;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.manage-user-actions-icon.add {
+  color: blue;
+}
+
+.manage-user-actions-icon.edit {
+  color: teal;
+}
+
+.manage-user-actions-icon.delete {
+  color: red;
+}

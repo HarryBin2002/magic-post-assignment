@@ -1,0 +1,28 @@
+// pagination
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+
+  .pagination-btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+
+    &:hover {
+      background-color: black;
+      transition: all 0.3s ease;
+      color: white;
+    }
+  }
+
+  .pagination-current {
+    //   color: black;
+  }
+}

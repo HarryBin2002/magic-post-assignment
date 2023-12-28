@@ -1,0 +1,108 @@
+.main-table {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .main-table-container {
+    .main-table-top {
+      display: flex;
+      align-items: flex-start;
+      //   align-items: center;
+      justify-content: space-between;
+
+      .main-table-top-actions {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .btn-add {
+          border: none;
+          cursor: pointer;
+          border: 10px;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          padding: 8px 10px;
+          border-radius: 20px;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+
+          &:hover {
+            transition: all 0.3s ease;
+            background-color: white;
+            color: black;
+          }
+        }
+
+        .main-table-select-option {
+          .main-table-roles {
+            width: 100%;
+            appearance: none;
+            -webkit-appearance: none;
+            padding: 10px;
+            border-radius: 0.25rem;
+            border: none;
+            color: #000;
+            cursor: pointer;
+            .main-table-role-option {
+            }
+          }
+        }
+
+        .main-table-filter {
+          border: none;
+          cursor: pointer;
+          border: 10px;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          padding: 8px 10px;
+          border-radius: 20px;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+
+          &:hover {
+            transition: all 0.3s ease;
+            background-color: white;
+            color: black;
+          }
+        }
+      }
+
+      .main-table-title {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .main-table-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+
+    .pagination-btn {
+      border: none;
+      background-color: white;
+      cursor: pointer;
+      padding: 6px 12px;
+      border-radius: 10px;
+      border: 1px solid black;
+      font-size: 14px;
+
+      &:hover {
+        background-color: black;
+        transition: all 0.2s ease;
+        color: white;
+      }
+    }
+
+    .pagination-current {
+      //   color: black;
+    }
+  }
+}

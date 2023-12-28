@@ -1,0 +1,235 @@
+.confirm-item {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirm-item-container {
+  width: 600px;
+  margin: 0px auto;
+  border-radius: 4px;
+  padding: 30px 20px;
+}
+
+.confirm-item-form {
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+}
+.confirm-item-form * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+.confirm-item-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.confirm-item-list-leader {
+  z-index: 10;
+  padding-top: 40px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: 460px;
+  top: 30px;
+  // overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+
+  .pagination.confirm-item-p{
+
+  }
+}
+
+.confirm-item-list-user-send {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.confirm-item-list-user-send-input {
+  color: white;
+  border-radius: 5px;
+  padding: 6px 10px;
+  background-color: rgb(88, 87, 87);
+  border-radius: 3px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.confirm-item-list-user-send-find {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    transition: all 0.3s ease;
+  }
+}
+
+.confirm-item-leader-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: red;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirm-item-list-item {
+  padding: 8px 10px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.confirm-item-list-item-name {
+  color: black;
+}
+
+b {
+  color: black;
+}
+
+.confirm-item-list-item:hover {
+  background-color: lightgray;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+}
+
+.confirm-item-label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.confirm-item-input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+::placeholder {
+  color: #e5e5e5;
+}
+
+.confirm-item-btn {
+  margin-top: 50px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirm-item-btn:hover {
+  transition: all 0.2s linear;
+  color: white;
+  background-color: black;
+}
+
+.confirm-item-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.confirm-item-assign {
+  border: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 10px;
+  width: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.confirm-item-assign.active {
+  background-color: white;
+  color: black;
+}
+
+.confirm-item-assign:hover {
+  transition: all 0.3s ease;
+  background-color: white;
+  color: black;
+}
+
+.pagination-btn.confirm-item-p {
+  // background-color: black;
+  color: black;
+}
+
+.pagination-current.confirm-item-p {
+  color: black;
+}
+
+.confirm-item-list-btn {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.pagination.confirm-item-p {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.confirm-item-input-controller {
+  display: flex;
+  align-items: center;
+}
+
+.confirm-item-input-label {
+  width: 28%;
+}
